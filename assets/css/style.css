@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@hje58raf 
-Code-Institute-Solutions
-/
-love-running-2.0-sourcecode
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-love-running-2.0-sourcecode/04-creating-the-club-ethos/04-club-ethos-center-content/assets/css/style.css
-@AJGreaves
-AJGreaves Add sourcecode for club ethos center lesson
-Latest commit a0c328a on 17 Jan 2021
- History
- 1 contributor
-189 lines (151 sloc)  2.82 KB
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
@@ -241,4 +213,25 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
